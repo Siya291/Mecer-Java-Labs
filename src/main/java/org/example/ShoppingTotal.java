@@ -1,6 +1,6 @@
 package org.example;
 
-public class shoppingTotal {
+public class ShoppingTotal {
 
     public static void main(String[] args) {
         String prodName = "Laptop(s)";

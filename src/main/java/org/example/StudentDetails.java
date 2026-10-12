@@ -1,6 +1,6 @@
 package org.example;
 
-public class studentDetails {
+public class StudentDetails {
 
     public static void main(String[] args) {
         String studentName = "Naledi";
