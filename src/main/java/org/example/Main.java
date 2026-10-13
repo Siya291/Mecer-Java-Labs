@@ -30,5 +30,11 @@ public class Main {
         studentMarks.printMarks();
         studentMarks.calcTotal();
         studentMarks.calcAverage();
+
+        ArrayStatistics arrayStatistics = new ArrayStatistics();
+        arrayStatistics.findNumbersOverFifty();
+        arrayStatistics.findLargeSmallValue();
+        arrayStatistics.totalElement();
+
     }
 }
