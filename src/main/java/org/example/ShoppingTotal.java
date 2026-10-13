@@ -2,7 +2,7 @@ package org.example;
 
 public class ShoppingTotal {
 
-    public static void main(String[] args) {
+    public void getShoppingTotal() {
         String prodName = "Laptop(s)";
         double prodPrice = 11500.99;
         int quantity= 3;
@@ -16,6 +16,7 @@ public class ShoppingTotal {
 
         System.out.println("Total price for " + prodName + " is R" + totalPrice);
         System.out.printf("With the applied discount the Final Amount is: R%.2f", finalAmt);
+        System.out.println("");
 
     }
 }

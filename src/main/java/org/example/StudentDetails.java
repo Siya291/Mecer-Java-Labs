@@ -2,7 +2,7 @@ package org.example;
 
 public class StudentDetails {
 
-    public static void main(String[] args) {
+    public void getStudentDetails() {
         String studentName = "Naledi";
         int age = 20;
         double averageMark = 76.5;
@@ -12,5 +12,6 @@ public class StudentDetails {
         System.out.println("Age: " + age);
         System.out.println("Average Mark: " + averageMark);
         System.out.println("Registered: " + isRegistered);
+        System.out.println("");
     }
 }
