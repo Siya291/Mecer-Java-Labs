@@ -36,5 +36,8 @@ public class Main {
         arrayStatistics.findLargeSmallValue();
         arrayStatistics.totalElement();
 
+        ArraySearch arraySearch = new ArraySearch();
+        arraySearch.searchArrNumbers();
+
     }
 }
