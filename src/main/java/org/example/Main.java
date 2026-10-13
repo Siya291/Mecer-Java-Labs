@@ -9,5 +9,8 @@ public class Main {
 
         ShoppingTotal shoppingTotal = new ShoppingTotal();
         shoppingTotal.getShoppingTotal();
+
+        TemperatureConversion temperatureConversion = new TemperatureConversion();
+        temperatureConversion.getFahrenheitAndCelcius();
     }
 }
