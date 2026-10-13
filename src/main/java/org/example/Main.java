@@ -18,5 +18,9 @@ public class Main {
 
         GradeCalculator gradeCalculator = new GradeCalculator();
         gradeCalculator.gradeMarkCalc();
+
+        NumberAnalysis numberAnalysis = new NumberAnalysis();
+        numberAnalysis.numPositiveOrNegative();
+        numberAnalysis.numEvenOrOdd();
     }
 }
