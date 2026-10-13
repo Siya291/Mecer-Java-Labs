@@ -12,5 +12,8 @@ public class Main {
 
         TemperatureConversion temperatureConversion = new TemperatureConversion();
         temperatureConversion.getFahrenheitAndCelcius();
+
+        PassOrFail passOrFail = new PassOrFail();
+        passOrFail.getMark();
     }
 }
