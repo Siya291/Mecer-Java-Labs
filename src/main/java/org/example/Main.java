@@ -25,5 +25,10 @@ public class Main {
 
         LoginCheck loginCheck = new LoginCheck();
         loginCheck.loginValidation();
+
+        StudentMarks studentMarks = new StudentMarks();
+        studentMarks.printMarks();
+        studentMarks.calcTotal();
+        studentMarks.calcAverage();
     }
 }
