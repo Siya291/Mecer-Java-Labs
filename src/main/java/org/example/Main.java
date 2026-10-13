@@ -45,5 +45,10 @@ public class Main {
         ReverseArray reverseArray = new ReverseArray();
         reverseArray.printReverseOnly();
 
+        Student student1 = new Student("Siyabonga", "ST218253974", 88);
+        Student student2 = new Student("Ditebogo", "ST218274634", 41);
+        student1.displayDetails();
+        student2.displayDetails();
+
     }
 }
