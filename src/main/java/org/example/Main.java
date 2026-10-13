@@ -42,5 +42,8 @@ public class Main {
         EvenOddArray evenOddArray = new EvenOddArray();
         evenOddArray.processEvenAndOdd();
 
+        ReverseArray reverseArray = new ReverseArray();
+        reverseArray.printReverseOnly();
+
     }
 }
