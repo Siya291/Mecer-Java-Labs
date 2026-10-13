@@ -39,5 +39,8 @@ public class Main {
         ArraySearch arraySearch = new ArraySearch();
         arraySearch.searchArrNumbers();
 
+        EvenOddArray evenOddArray = new EvenOddArray();
+        evenOddArray.processEvenAndOdd();
+
     }
 }
