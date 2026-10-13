@@ -22,5 +22,8 @@ public class Main {
         NumberAnalysis numberAnalysis = new NumberAnalysis();
         numberAnalysis.numPositiveOrNegative();
         numberAnalysis.numEvenOrOdd();
+
+        LoginCheck loginCheck = new LoginCheck();
+        loginCheck.loginValidation();
     }
 }
