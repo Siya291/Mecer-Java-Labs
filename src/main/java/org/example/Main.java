@@ -56,5 +56,9 @@ public class Main {
         Product product = new Product("VC_123", "Vanilla cake", 159.99, 37, 30);
         product.displayStock();
 
+        Rectangle rectangle = new Rectangle(45.2, 23.9);
+        Rectangle rectangle2 = new Rectangle(23.88, 13.4);
+        rectangle.displayResults();
+        rectangle2.displayResults();
     }
 }
