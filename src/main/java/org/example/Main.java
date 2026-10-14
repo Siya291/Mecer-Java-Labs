@@ -53,5 +53,8 @@ public class Main {
         BankAccount bankAccount = new BankAccount("Siyabonga", 14142343, 3000);
         bankAccount.getBalance();
 
+        Product product = new Product("VC_123", "Vanilla cake", 159.99, 37, 30);
+        product.displayStock();
+
     }
 }
