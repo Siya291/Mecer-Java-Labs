@@ -16,11 +16,11 @@ public class EvenOddArray {
                 oddNumbers.add(num);
             }
         }
-//        for (int i = 0; i<=numbers.length;i++){
-//            if (i % 2==0){
-//                evenNumbers.add(i);
+//        for (int i = 0; i < numbers.length;i++){
+//            if (numbers[i] % 2 == 0){
+//                evenNumbers.add(numbers[i]);
 //            } else {
-//                oddNumbers.add(i);
+//                oddNumbers.add(numbers[i]);
 //            }
 //        }
 

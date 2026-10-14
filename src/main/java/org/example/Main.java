@@ -3,7 +3,7 @@ package org.example;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main(String[] args) {
+    static void main() {
         StudentDetails studentDetails = new StudentDetails();
         studentDetails.getStudentDetails();
 
@@ -49,6 +49,9 @@ public class Main {
         Student student2 = new Student("Ditebogo", "ST218274634", 41);
         student1.displayDetails();
         student2.displayDetails();
+
+        BankAccount bankAccount = new BankAccount("Siyabonga", 14142343, 3000);
+        bankAccount.getBalance();
 
     }
 }
