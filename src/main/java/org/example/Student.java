@@ -20,9 +20,6 @@ public class Student {
     }
 
     public boolean hasPassed() {
-        if (mark >= 50) {
-            return true;
-        }
-        return false;
+        return mark >= 50;
     }
 }

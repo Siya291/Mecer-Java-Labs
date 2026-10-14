@@ -16,6 +16,13 @@ public class EvenOddArray {
                 oddNumbers.add(num);
             }
         }
+//        for (int i = 0; i<=numbers.length;i++){
+//            if (i % 2==0){
+//                evenNumbers.add(i);
+//            } else {
+//                oddNumbers.add(i);
+//            }
+//        }
 
         System.out.println("--- COUNTS ---");
         System.out.println("Number of even values: " + evenNumbers.size());
