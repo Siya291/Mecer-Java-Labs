@@ -60,5 +60,12 @@ public class Main {
         Rectangle rectangle2 = new Rectangle(23.88, 13.4);
         rectangle.displayResults();
         rectangle2.displayResults();
+
+        Student2 student = new Student2("Siyabonga", "ST218253974", new int[]{77, 55, 88});
+        Student2 students1 = new Student2("Lona", "ST21857e965", new int[]{40, 35, 68});
+        Student2 students2 = new Student2("Ditebogo", "ST265343567", new int[]{60, 45, 68});
+        student.displaySummery();
+        students1.displaySummery();
+        students2.displaySummery();
     }
 }
