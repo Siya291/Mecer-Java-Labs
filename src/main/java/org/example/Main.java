@@ -67,5 +67,28 @@ public class Main {
         student.displaySummery();
         students1.displaySummery();
         students2.displaySummery();
+
+        Product2 products1 = new Product2("AP_001", "Apple", 34.99, 7);
+        Product2 products2 = new Product2("P_001", "Peers", 24.99, 25);
+        Product2 products3 = new Product2("G_001", "Grapes", 44.99, 5);
+        Product2 products4 = new Product2("O_001", "Oranges", 14.99, 9);
+
+        double subTotal = 0.0;
+        double discountPercentage = 0.1;
+        double finalTotal;
+
+        System.out.println("\n---------- Receipt ----------");
+
+        Product2[] products = {products1, products2, products3, products4};
+        for (Product2 _Products : products) {
+            _Products.displayReceipt();
+            subTotal += _Products.calcLineTotal();
+        }
+        System.out.println("-----------------------------");
+        System.out.printf("The sub total for products is: R%.2f\n", subTotal);
+        if (subTotal >= 1000) {
+            finalTotal = subTotal - (subTotal * discountPercentage);
+            System.out.printf("You qualify for a discount for spending R1000 or more, the final amount due is R%.2f", finalTotal);
+        }
     }
 }
