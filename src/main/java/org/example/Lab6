@@ -1,0 +1,23 @@
+Exercise 6.1: Incorrect String comparison.
+
+Answer: == compares object references not the characters in the strings. Since each new String("Java")
+        creates a separate String object, "first == second" will be false, even both contain the same text.
+
+Exercise 6.2: Array index.
+
+Answer: The array has length 3, so its valid indexes are 0, 1, and 2. With i <= numbers.length,
+        the loop tries to access index 3 causing an ArrayIndexOutOfBoundsException.
+
+Exercise 6.3: Incorrect grade conditions.
+
+Answer: int mark = 85;
+
+        if (mark >= 80) {
+            System.out.println("Distinction");
+        } else if (mark >= 50) {
+            System.out.println("Pass");
+        }
+
+Exercise 6.4: Unsafe withdrawal.
+
+Answer: Confirmed and the balance remains correct on every operation.

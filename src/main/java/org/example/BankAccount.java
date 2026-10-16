@@ -29,6 +29,8 @@ public class BankAccount {
         if(amount > 0 && amount <= balance){
             balance = balance - amount;
             System.out.println("Withdrew R" + amount + " in account number " + accountNumber + " available balance is R" + balance);
+        } else {
+            System.out.print("Invalid withdrwal");
         }
     }
 }
