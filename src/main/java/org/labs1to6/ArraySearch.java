@@ -1,4 +1,4 @@
-package org.example;
+package org.labs1to6;
 
 public class ArraySearch {
     int[] numbers = {10, 20, 30, 40, 40, 50};

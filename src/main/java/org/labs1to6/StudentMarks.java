@@ -1,4 +1,4 @@
-package org.example;
+package org.labs1to6;
 
 public class StudentMarks {
     int[] marks = {70, 55, 20, 91, 88};

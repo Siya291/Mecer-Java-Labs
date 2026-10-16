@@ -1,4 +1,4 @@
-package org.example;
+package org.labs1to6;
 
 public class ReverseArray {
     int[] numbers = {10, 20, 30, 40, 50, 60};

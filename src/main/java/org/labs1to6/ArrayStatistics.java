@@ -1,4 +1,4 @@
-package org.example;
+package org.labs1to6;
 
 public class ArrayStatistics {
     int[] numbers = {50, 66, 88, 20, 45, 90};
