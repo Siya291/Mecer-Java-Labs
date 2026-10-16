@@ -90,5 +90,47 @@ public class Main {
             finalTotal = subTotal - (subTotal * discountPercentage);
             System.out.printf("You qualify for a discount for spending R1000 or more, the final amount due is R%.2f", finalTotal);
         }
+
+
+        Employee employee = new Employee("EMP_001", "Siyabonga", 55000.00);
+        Employee employee1 = new Employee("EMP_002", "Lona", 12000.00);
+        Employee employee2 = new Employee("EMP_003", "Ditebogo", 5000.00);
+        Employee employee3 = new Employee("EMP_004", "Kagiso", 19000.00);
+        Employee employee4 = new Employee("EMP_005", "Ntiyiso", 22000.00);
+
+        double salariesAverage;
+        double totalSalary = 0.0;
+
+
+        System.out.println("\n---------- Employee Details ----------");
+        Employee[] employees = {employee, employee1, employee2,employee3, employee4};
+
+        for(Employee _employees: employees){
+            if (_employees.monthlySalary > 10000 && _employees.monthlySalary < 20000) {
+                System.out.print("\nEmployee Number: " + _employees.employeeNumber + "\nEmployee Name: " + _employees.employeeName + "\nEmployee Salary: R" + _employees.monthlySalary + "\nSalary is within the threshold\n");
+            } else if (_employees.monthlySalary >= 20000) {
+                System.out.print("\nEmployee Number: " + _employees.employeeNumber + "\nEmployee Name: " + _employees.employeeName + "\nEmployee Salary: R" + _employees.monthlySalary + "\nSalary above the threshold\n");
+            } else {
+                System.out.print("\nEmployee Number: " + _employees.employeeNumber + "\nEmployee Name: " + _employees.employeeName + "\nEmployee Salary: R" + _employees.monthlySalary + "\nSalary below the threshold\n");
+            }
+
+        }
+
+
+        for (int i = 0; i < 5; i++) {
+            totalSalary += employees[i].monthlySalary;
+        }
+
+        salariesAverage = totalSalary / employees.length;
+        System.out.printf("\nAverage of the Salaries is: R%.2f", salariesAverage);
+
+        double highest = employees[0].monthlySalary;
+
+        for (Employee emp : employees) {
+            if (emp.monthlySalary > highest) {
+                highest = emp.monthlySalary;
+            }
+        }
+        System.out.println("\nHighest Salary: " + highest);
     }
 }
